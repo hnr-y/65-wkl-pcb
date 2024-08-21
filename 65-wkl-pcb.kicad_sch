@@ -5863,6 +5863,16 @@
 	)
 	(wire
 		(pts
+			(xy 97.79 193.04) (xy 100.33 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7af502b4-500b-49c0-bf2f-41b724e4186a")
+	)
+	(wire
+		(pts
 			(xy 52.07 43.18) (xy 53.34 43.18)
 		)
 		(stroke
@@ -5920,6 +5930,16 @@
 			(type default)
 		)
 		(uuid "87622899-7ea9-42be-9aa9-c33d7adeaad5")
+	)
+	(wire
+		(pts
+			(xy 95.25 187.96) (xy 100.33 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88cfb915-3d72-4d3c-865c-d8c9487f990f")
 	)
 	(wire
 		(pts
@@ -6023,6 +6043,16 @@
 	)
 	(wire
 		(pts
+			(xy 97.79 190.5) (xy 100.33 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9882dd85-a3a9-4922-9d9e-3dfe25291a37")
+	)
+	(wire
+		(pts
 			(xy 124.46 39.37) (xy 134.62 39.37)
 		)
 		(stroke
@@ -6080,6 +6110,16 @@
 			(type default)
 		)
 		(uuid "a71bb0be-2702-4114-8b58-ac15afd0b715")
+	)
+	(wire
+		(pts
+			(xy 95.25 195.58) (xy 95.25 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7b99210-65aa-4efb-b217-676d15d742e6")
 	)
 	(wire
 		(pts
@@ -6220,6 +6260,16 @@
 			(type default)
 		)
 		(uuid "cfda7662-3830-4b1e-b37c-d92191ccd718")
+	)
+	(wire
+		(pts
+			(xy 95.25 195.58) (xy 100.33 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d372b614-ab87-41ff-be54-33c96f87f82d")
 	)
 	(wire
 		(pts
@@ -6657,6 +6707,28 @@
 	)
 	(global_label "D+"
 		(shape input)
+		(at 97.79 193.04 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6872c201-e333-4347-b15b-69067167d22e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 91.9624 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "D+"
+		(shape input)
 		(at 90.17 46.99 180)
 		(fields_autoplaced yes)
 		(effects
@@ -6910,6 +6982,28 @@
 		(uuid "c892456a-55f4-46e8-9ff5-83a8d2cbde3c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 16.4882 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "D-"
+		(shape input)
+		(at 97.79 190.5 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c9a5e8af-4069-449f-a20b-ca1da05de636")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 91.9624 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12773,6 +12867,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 95.25 187.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5fd703f1-3d82-4f4b-9736-17d590259776")
+		(property "Reference" "#PWR030"
+			(at 95.25 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 95.25 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 95.25 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 95.25 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f9beb6bd-13e9-4ac8-ab9e-60f157865169")
+		)
+		(instances
+			(project "65-wkl-pcb"
+				(path "/bea682c3-0e62-44aa-a9b6-6afe0dadfe40"
+					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D_Small")
 		(at 264.16 113.03 90)
 		(unit 1)
@@ -13190,6 +13350,72 @@
 			(project "65-wkl-pcb"
 				(path "/bea682c3-0e62-44aa-a9b6-6afe0dadfe40"
 					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 95.25 196.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6a376a98-697f-421d-8ebb-b0f00641408f")
+		(property "Reference" "#PWR031"
+			(at 95.25 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 95.25 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 95.25 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 95.25 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bdcdf4ee-627d-4273-971e-a3af7c29c284")
+		)
+		(instances
+			(project "65-wkl-pcb"
+				(path "/bea682c3-0e62-44aa-a9b6-6afe0dadfe40"
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -20247,6 +20473,82 @@
 			(project ""
 				(path "/bea682c3-0e62-44aa-a9b6-6afe0dadfe40"
 					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 105.41 190.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e9e1cbca-47f9-473f-a904-b68510cbb72d")
+		(property "Reference" "J4"
+			(at 107.95 190.4999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x04"
+			(at 107.95 193.0399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_PH_S4B-PH-K_1x04_P2.00mm_Horizontal"
+			(at 105.41 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 105.41 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 105.41 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3d3c0ddd-a1dc-4eb7-a110-c92f83daacc8")
+		)
+		(pin "2"
+			(uuid "527a633a-af5a-403d-88cb-94a4ec655e7e")
+		)
+		(pin "4"
+			(uuid "c859f52e-a234-440d-9583-6a7dabd2e8b5")
+		)
+		(pin "3"
+			(uuid "58696842-af28-44e7-9868-7dbb125382ac")
+		)
+		(instances
+			(project ""
+				(path "/bea682c3-0e62-44aa-a9b6-6afe0dadfe40"
+					(reference "J4")
 					(unit 1)
 				)
 			)
